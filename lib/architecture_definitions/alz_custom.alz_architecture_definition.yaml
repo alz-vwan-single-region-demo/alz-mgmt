@@ -1,0 +1,68 @@
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  "display_name": "Zava"
+  "exists": true
+  "id": "zava-root"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  "display_name": "Zava Platform"
+  "exists": false
+  "id": "zava-platform"
+  "parent_id": "zava-root"
+- "archetypes":
+  - "landing_zones_custom"
+  "display_name": "Zava Landing Zones"
+  "exists": false
+  "id": "zava-landingzones"
+  "parent_id": "zava-root"
+- "archetypes":
+  - "corp_custom"
+  "display_name": "Zava Corp"
+  "exists": false
+  "id": "zava-corp"
+  "parent_id": "zava-landingzones"
+- "archetypes":
+  - "online_custom"
+  "display_name": "Zava Online"
+  "exists": false
+  "id": "zava-online"
+  "parent_id": "zava-landingzones"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "Zava Sandbox"
+  "exists": false
+  "id": "zava-sandbox"
+  "parent_id": "zava-root"
+- "archetypes":
+  - "security_custom"
+  "display_name": "Zava Security"
+  "exists": false
+  "id": "zava-security"
+  "parent_id": "zava-platform"
+- "archetypes":
+  - "management_custom"
+  "display_name": "Zava Management"
+  "exists": false
+  "id": "zava-management"
+  "parent_id": "zava-platform"
+- "archetypes":
+  - "connectivity_custom"
+  "display_name": "Zava Connectivity"
+  "exists": false
+  "id": "zava-connectivity"
+  "parent_id": "zava-platform"
+- "archetypes":
+  - "identity_custom"
+  "display_name": "Zava Identity"
+  "exists": false
+  "id": "zava-identity"
+  "parent_id": "zava-platform"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "Zava Decommissioned"
+  "exists": false
+  "id": "zava-decommissioned"
+  "parent_id": "zava-root"
+"name": "alz_custom"
